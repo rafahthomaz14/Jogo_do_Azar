@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Exercicio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="topo">
+            <h3>Sorteio Online</h3>
+            <input type="button" value="+" class="btn1" onclick="mostrarCampoSaldo()">
+            <h3>Saldo: <label id="saldo">R$ 498.00</label></h3>
+        </div>
+
+
+    </header>
+    <!--TERMINAR ESSA PARTE DO CODIGO STYLE-->
+        <div id="campoSaldo" style="display: none;">
+            <input type="number" id="valorSaldo" placeholder="Digite o valor">
+            <input type="button" value="Adicionar" onclick="adicionarSaldo()">
+        </div>
+
+
+    <section>
+
+
+        <div>
+            Digite um Número :
+            <input type="text" name="numero" id="num">
+            <input type="button" value="Confirmar" onclick="armazenarNumero()">
+
+        </div>
+        <div>
+            <label for="" id="txt1"></label>
+        </div>
+
+        <br>
+        <p>Número Sorteado !
+        <div class="res" id="res"></div>
+        </p>
+        <div class="res-1" id="res-1"></div>
+        <br>
+        <div class="btn">
+            <input type="button" value="Realizar Sorteio" onclick="gerar()">
+            <button onclick="limpar()">Limpar</button>
+        </div>
+    </section>
+
+    <br><br><br>
+    <section>
+        <div>
+            <h1>Regras do Jogo</h1>
+            <ul>
+                <li><strong>1. Recarregue seu Saldo</strong>
+                    <p>Para participar do jogo, é necessário recarregar sua conta na plataforma com um saldo mínimo de
+                        R$ 30,00.</p>
+                </li>
+                <li><strong>2. Custo por Jogada</strong>
+                    <p>Cada jogada tem um custo de R$ 10,00, que será deduzido do seu saldo na plataforma.</p>
+                </li>
+                <li><strong>3. Escolha seu Número da Sorte</strong>
+                    <p>Antes de iniciar o sorteio, o jogador deve escolher um número da sorte e apertar o botão
+                        "Confirmar".</p>
+                </li>
+                <strong>4. Início do Sorteio</strong>
+                <p>Após confirmar seu número da sorte, o jogador devera iniciar o sorteio no botao indicado.</p>
+
+                <li><strong>5. Boa Sorte!</strong>
+                    <p>Após o início do sorteio, torça para que seu número da sorte seja o vencedor. O vencedor terá o
+                        valor da jogada multiplicado por 10x Boa sorte!</p>
+                </li>
+            </ul>
+            <p>Certifique-se de que leu e entendeu todas as regras antes de começar a jogar. Divirta-se e boa sorte!</p>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Aposta do Bem </p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>

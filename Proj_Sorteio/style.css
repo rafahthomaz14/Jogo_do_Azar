@@ -1,0 +1,48 @@
+body{
+    background-color:rgb(41, 90, 250);
+    font:normal 15pt Arial;
+}
+
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 25px;
+    width: 550px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.411);
+    text-align: center;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-size: medium;
+}
+.res{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(42, 190, 42);
+}
+.res-1{
+    color: red;
+}
+
+.topo{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.topo h3{
+    margin-left: 15px;
+}
+
+.btn1{
+    margin-left: 40px;
+    margin-top: 26px;
+    height: 20px;
+    border-radius: 20%;
+}
+
+ul{
+    list-style-type: none;
+}
